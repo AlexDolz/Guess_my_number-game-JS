@@ -170,6 +170,7 @@ h1 {
   .message {
     margin-bottom: 6rem;
     font-size: 1.6rem;
+    line-height: 32px;
   }
   .between {
     font-size: 1.5rem;
@@ -183,11 +184,9 @@ h1 {
   .right {
     margin-left: 10px;
   }
-  .check {
-    margin-left: 28px;
-  }
   .label-score {
     font-size: 1.6rem;
+    line-height: 32px;
   }
   .label-highscore {
     font-size: 1.6rem;
