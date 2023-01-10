@@ -4,6 +4,19 @@
   margin: 0;
   padding: 0;
   box-sizing: inherit;
+  -webkit-tap-highlight-color: transparent;
+}
+input,
+textarea,
+button,
+select,
+a {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+a:focus,
+a:visited,
+a:active {
+  outline: none;
 }
 
 html {
@@ -116,4 +129,68 @@ h1 {
 
 .label-score {
   margin-bottom: 2rem;
+}
+
+@media (orientation: landscape) and (hover: none) and (pointer: coarse) {
+  .again {
+    top: 1rem;
+  }
+  .btn {
+    padding: 1rem 2rem;
+  }
+  h1 {
+    font-size: 3rem;
+    margin-top: 1rem;
+  }
+  .number {
+    font-size: 3rem;
+    padding: 1rem 0;
+  }
+  .message {
+    margin-bottom: 6rem;
+  }
+}
+@media (orientation: portrait) and (hover: none) and (pointer: coarse) {
+  .again {
+    top: 1rem;
+    left: 1rem;
+  }
+  .btn {
+    padding: 3rem 1rem;
+    font-size: 1.5rem;
+  }
+  h1 {
+    font-size: 2rem;
+    margin-top: 1rem;
+  }
+  .number {
+    font-size: 5rem;
+    padding: 1rem 1rem;
+  }
+  .message {
+    margin-bottom: 6rem;
+    font-size: 1.6rem;
+  }
+  .between {
+    font-size: 1.5rem;
+    width: 140px;
+  }
+  .guess {
+    width: 8.5rem;
+    font-size: 2rem;
+    padding: 2rem;
+  }
+  .right {
+    margin-left: 10px;
+  }
+  .check {
+    margin-left: 28px;
+  }
+  .label-score {
+    font-size: 1.6rem;
+  }
+  .label-highscore {
+    font-size: 1.6rem;
+    line-height: 32px;
+  }
 }
