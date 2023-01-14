@@ -131,7 +131,7 @@ h1 {
   margin-bottom: 2rem;
 }
 
-@media (orientation: landscape) and (hover: none) and (pointer: coarse) {
+@media (orientation: landscape) and (any-pointer: coarse) {
   .again {
     top: 1rem;
   }
@@ -150,7 +150,7 @@ h1 {
     margin-bottom: 6rem;
   }
 }
-@media (orientation: portrait) and (hover: none) and (pointer: coarse) {
+@media (orientation: portrait) and (any-pointer: coarse) {
   .again {
     top: 1rem;
     left: 1rem;
